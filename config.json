@@ -1,0 +1,19 @@
+{
+  "params":
+  {
+    "local_server": "True",
+    "local_uri": "mysql+pymysql://root:@localhost/codersforum",
+    "prod_uri": "mysql+pymysql://root:@localhost/codersforum",
+    "blog_name": "Coders Forum",
+    "blog_tagline": "An Enriched Network for Dynamic Programmers",
+    "fb_url": "https://www.facebook.com/",
+    "tw_url": "https://www.twitter.com/",
+    "gh_url": "https://www.github.com/",
+    "gmail_user": "example@gmail.com",
+    "gmail_password": "pasword",
+    "no_of_post": 3,
+    "login_image": "login.png",
+    "admin_user": "username",
+    "admin_password": "password"
+  }
+}
