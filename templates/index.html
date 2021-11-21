@@ -41,15 +41,17 @@
             <br><br>
             {% endfor %}
             <!-- Divider-->
-            <hr class="my-4" />
+
 
             
             <!-- Pager-->
-            <div class="d-flex justify-content-end mb-4">
-                <a class="btn btn-primary text-uppercase" href="#!">Older Posts →</a>
+            <div class="mb-4">
+                <a class="btn btn-primary float-start" href="{{prev}}">← Previous</a>
+                <a class="btn btn-primary float-end" href="{{next}}">Next →</a>
             </div>
         </div>
     </div>
 </div>
+<br>
 
 {% endblock %}
